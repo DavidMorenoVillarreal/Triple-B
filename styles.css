@@ -1,0 +1,58 @@
+<style>
+
+/*body*/
+
+body {
+  font-family: "Bahnschrif", sans-serif;
+  background: linear-gradient(to right, #795548, #FFC107);
+}
+
+/*header*/
+
+    /*titulo grande pagina*/
+.h1 {
+}
+
+    /*redes sociales boton 1*/
+.social1 {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.social1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+   /*redes sociales boton 2*/
+.social2 {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.social2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/*main*/
+
+    /*nav*/
+.ul {
+  border-radius: 50%;
+}
+
+    /*section*/
+.h2 {
+}
+
+.article {
+}
+/*video*/
+
+/*tabla de cartas*/
+.listatabla2 {
+}
+
+/*pie de pagina*/
+.footer {
+}
+
+</style>
