@@ -1,58 +1,90 @@
-<style>
-
 /*body*/
 
 body {
-  font-family: "Bahnschrif", sans-serif;
-  background: linear-gradient(to right, #795548, #FFC107);
+font-family: "Britannic Bold", sans-serif;
+background: #795548;
+font-size: 21px;
 }
 
 /*header*/
 
     /*titulo grande pagina*/
 .h1 {
+text-align: center;
+align-content: center;
+color: #FFC107;
+font-size: 100px;
+}
+
+.logo{
+align align-items: left: border: 20;
 }
 
     /*redes sociales boton 1*/
 .social1 {
-  border-radius: 10px;
-  transition: 0.3s;
+text-align: right;
+border-radius: 10px;
+transition: 0.3s;
 }
 .social1:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+transform: scale(1.05);
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
    /*redes sociales boton 2*/
 .social2 {
-  border-radius: 10px;
-  transition: 0.3s;
+text-align: right;
+border-radius: 10px;
+transition: 0.3s;
 }
 .social2:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+transform: scale(1.05);
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 /*main*/
 
-    /*nav*/
-.ul {
-  border-radius: 50%;
+    /*nav lista de navegacion*/
+.lista1 {
+text-align: center;
 }
 
-    /*section*/
+ /*section 1*/
+
+    /*titulo secion1*/
 .h2 {
+text-align: left;
+color: #FFC107;
+font-size: 29px;
 }
-
+    /*parrafo secion 1*/
 .article {
+font-family: "Bahnschrif", sans-serif;
+text-align:left;
+border-left: 20px;
 }
 /*video*/
+.video {
+display:flex;
+align-items: center;
+}
 
-/*tabla de cartas*/
-.listatabla2 {
+/*titulo cartas*/
+.h3 {
+text-align: center;
+color: #FFC107;
+font-size: 24px;
+}
+
+/*lista de cartas*/
+.lista2 {
+text-align: center;
+}
+
+/*lista de imagenes*/
+.lista3 {
 }
 
 /*pie de pagina*/
 .footer {
+text-align: center;
 }
-
-</style>

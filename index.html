@@ -13,13 +13,15 @@
 
 <header>
 
- <h1><img src="logotipo/logotipo.png" alt="Logo de la página" class="logo" /> TRIPLE BUFFET</h1>
+<img src="logotipo/logotipo.png" alt="Logo de la página" width="200" class="logo">
+
+ <h1 class=h1> TRIPLE BUFFET </h1>
 
  <a href="https://www.instagram.com/morenokaiser/" target="_blank">
-    <img src="iconos/instagram.png" alt="Ir a isntagram" width="200" class="social1"/>
+    <img src="iconos/instagram.png" alt="Ir a isntagram" width="50" class="social1"/>
  </a>
  <a href="https://www.youtube.com/@DavidMoreno-ck4pj" target="_blank">
-    <img src="iconos/youtube.png" alt="Ir a youtube" width="200" class="social2"/>
+    <img src="iconos/youtube.png" alt="Ir a youtube" width="50" class="social2"/>
  </a>
 </header>
 
@@ -29,11 +31,11 @@
     tres botones ocupan el 33% del la pag-->
 <section>
 <nav>
-    <ul>
+    <ul class="lista1">
         <il> 
-        <a href="japonesa.html"><img src="iconos/ramen1.png" alt="icono" width="20" height="20"> Gastronomia Japonesa <img src="iconos/ramen1.png" alt="icono" width="20" height="20"></a>
-        <a href="italiana.html"><img src="iconos/espageti.png" alt="icono" width="20" height="20"> Gastronomia Italiana <img src="iconos/espageti.png" alt="icono" width="20" height="20"></a>
-        <a href="española.html"><img src="iconos/paella.png" alt="icono" width="20" height="20">Gastronomia Española <img src="iconos/paella.png" alt="icono" width="20" height="20"></a>
+        <a href="japonesa.html"><img src="iconos/ramen1.png" alt="icono" width="20" height="20"> Gastronomia Japonesa </a>
+        <a href="italiana.html"><img src="iconos/espageti.png" alt="icono" width="20" height="20"> Gastronomia Italiana </a>
+        <a href="española.html"><img src="iconos/paella.png" alt="icono" width="20" height="20">Gastronomia Española </a>
         </il>
     </ul>
 </nav>
@@ -41,9 +43,9 @@
 <section>
 <!--utilizarás elementos HTML5 variados (semánticos y multimedia) 
 procurando que no se re-pitan en cada página/sección.-->
-    <h2>Bienvenido a TRIPLE B</h2>
+    <h2 class=h2>Bienvenido a TRIPLE B</h2>
 <!--utilizar íconos para mejorar la experiencia Intenta usar iconos cuando te sea posible.--> 
-         <article>
+         <article class=article>
             <p>Imagina un lugar donde los sabores del mundo se encuentran en perfecta armonía, un buffet de tripe nacionalidad gourmet que fusiona la elegancia de la gastronomía japonesa, la pasión de la cocina italiana y el encanto tradicional de la mesa española. En cada rincón te espera una experiencia diferente:</p>
             <p>
             <img src="iconos/japon.png" alt="icono" width="20" height="20"> Sushi y Teppanyaki preparados al momento por chefs expertos, con ingredientes frescos que despiertan los sentidos.</p>
@@ -65,37 +67,39 @@ procurando que no se re-pitan en cada página/sección.-->
     <iframe
         width="560" 
         height="315" 
-        src="https://www.youtube.com/embed/LnuQ_K7LCxE" 
+        src="https://www.youtube.com/embed/6iBnrHfxFTM"
         title="YouTube video player" 
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
+        allowfullscreen class="video">
     </iframe>
 </section>
 <section>
-    <ul>
+    <!--tercer titulo-->
+    <h3 class="h3"> ELIGE CARTA </h3>
+    <!-- lista con descargables en horizontal-->
+    <ul class="lista2">
         <il>
-<!--tres botones ocupan el 33% del la pagu-->
-        <a class="listatabla2" href="japonesa.pdf"><img src="iconos/ramen.png" alt="icono" width="20" height="20"> Descargar Carta Japonesa <img src="iconos/ramen.png" alt="icono" width="20" height="20"></a>
-        <a class="listatabla2" href="italiana.pdf"><img src="iconos/pizza.png" alt="icono" width="20" height="20"> Descargar Carta Italiana <img src="iconos/pizza.png" alt="icono" width="20" height="20"></a>
-        <a class="listatabla2" href="española.pdf"><img src="iconos/jamon.png" alt="icono" width="20" height="20"> Descargar Carta Española <img src="iconos/jamon.png" alt="icono" width="20" height="20"></a>
+        <a href="cartas/GASTRONOMIA JAPONESA.pdf" download><img src="iconos/ramen.png" alt="icono" width="20" height="20"> Descargar Carta Japonesa  </a>
+        <a href="cartas/GASTRONOMIA ITALIANA.pdf" download><img src="iconos/pizza.png" alt="icono" width="20" height="20"> Descargar Carta Italiana </a>
+        <a href="cartas/GASTRONOMIA ESPAÑOLA.pdf" download><img src="iconos/jamon.png" alt="icono" width="20" height="20"> Descargar Carta Española </a>
         </il>
     </ul> 
 </section>
 <section>
-<!--3 fotografias en lista-->
+    <!--3 fotografias en lista horizontal-->
     <ul>
         <il>
-        <img src="imagenes local/Restaurante Exterior.png" alt="exterior" width="200" class="listatabla3"/>
-        <img src="imagenes local/Restaurante Interior.png" alt="interior" width="200" class="listatabla3"/>
-        <img src="imagenes local/disposicion.png" alt="disposicion" width="200" class="listatabla3"/>
+        <img class="lista3" src="imagenes local/Restaurante Exterior.png" alt="exterior" width="200"/>
+        <img class="lista3" src="imagenes local/Restaurante Interior.png" alt="interior" width="200"/>
+        <img class="lista3" src="imagenes local/disposicion.png" alt="disposicion" width="200"/>
         </il>
     </ul>
 </section>
 </main>
-<footer>
-<!--añadir en css fixed-->
-        Contacto - 925-348-380 Email | tripleb@gmail.com Localidad | Toledo-Toledo CP | 45007 Calle | falsa Nº123 
+<footer class="footer">
+<!--fijar pie de pagina-->
+        TlfContacto: 925-348-380 | Email: tripleb@gmail.com | Localidad: Toledo-Toledo | CP: 45007 | Calle: falsa Nº123 
 </footer>
 </body>
 </html>
