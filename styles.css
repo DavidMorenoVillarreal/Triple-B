@@ -1,4 +1,19 @@
-/*body*/
+
+
+/*RESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESETRESET
+
+•	Los elementos de tu web se visualizarán correctamente: no habrá superposición 
+(separa-ción mínima entre elementos de 8px), la separación de los elementos con el borde 
+de la página será de mínimo 16px y los botones tendrán un tamaño adecuado (mínimo 48px x 48px).  
+
+•	Utilizarás pseudo-classes como hover y focus para mejorar la accesibilidad
+•	Utilizarás background images/gradient en, como mínimo, 2 de las páginas o secciones.
+
+•	Modifica tu web para que sea responsive usando grid-view y media queries.
+•	Usa medidas relativas como (%, vw, vh, em…)
+•	Incluir un contenedor de tipo flex o de tipo grid
+*/
+
 
 body {
 font-family: "Britannic Bold", sans-serif;
@@ -17,7 +32,7 @@ font-size: 100px;
 }
 
 .logo{
-align align-items: left: border: 20;
+align-items: left; border: 20px;
 }
 
     /*redes sociales boton 1*/
@@ -62,10 +77,10 @@ font-family: "Bahnschrif", sans-serif;
 text-align:left;
 border-left: 20px;
 }
+
 /*video*/
 .video {
-display:flex;
-align-items: center;
+text-align: center;
 }
 
 /*titulo cartas*/
@@ -82,6 +97,7 @@ text-align: center;
 
 /*lista de imagenes*/
 .lista3 {
+text-align: center;
 }
 
 /*pie de pagina*/
