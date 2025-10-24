@@ -10,11 +10,10 @@ box-sizing: border-box;
 
 body {
 font-family: "Britannic Bold", sans-serif;
-background: #000000;
+background: linear-gradient(to bottom, #000000, #252525ea);
 font-size: 21px;
 border-style:double;
 border-color: #FFC107;
-background: linear-gradient (right, #0fad17, #dd6541);
 }
 
 /*header*/
@@ -66,9 +65,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.3);
 
     /*nav lista de navegacion*/
 .ul {
-text-align: center;  
+text-align: center;
+
 }
 .lista1 {
+gap: 20px; 
+display:inline-block;
 text-decoration: none; /* quita el subrayado */
 padding-top: 3%;
 font-size: 40px;
@@ -91,7 +93,7 @@ color: #FFC107;
 }
 
 .iconos {
-  width: 5%;
+  width: 8%;
 }
 .iconosbanderas {
   width: 2%
@@ -113,12 +115,18 @@ padding-left: 17%;
     /*parrafo secion 1*/
 .article {
 font-family: "Bahnschrif", sans-serif;
+line-height: 150%;
 color: #ffffff;
 text-align:left;
 padding-left: 20%;
 padding-right: 20%;
 padding-bottom: 5%
 }
+.article .masp {
+padding-left: 10%;
+padding-right: 15%;
+}
+
 
 /*video*/
 .video {
@@ -178,8 +186,8 @@ padding-bottom: 6%;
 
 /*pie de pagina*/
 .footer {
-text-align: center;
-white-space: pre;
+text-align: center; 
+white-space: normal; /*Mantiene todos los espacios como los tengo en html*/
 color: #FFC107;
 background: #5D4037;
 padding: 3%;
