@@ -1,20 +1,4 @@
-
-
-/*
-•   (separa-ción mínima entre elementos de 8px (i el total es 8px:
-
-    la separación de los elementos con el borde 
-de la página será de mínimo 16px y los botones tendrán un tamaño adecuado (mínimo 48px x 48px).  
-
-•	Utilizarás pseudo-classes como hover y focus para mejorar la accesibilidad
-•	Utilizarás background images/gradient en, como mínimo, 2 de las páginas o secciones.
-
-•	Modifica tu web para que sea responsive usando grid-view y media queries.
-•	Usa medidas relativas como (%, vw, vh, em…)
-•	Incluir un contenedor de tipo flex o de tipo grid
-*/
-/*separa-ción mínima entre elementos de 8px*/
-
+/* Utilizarás background images/gradient en, como mínimo, 2 de las páginas o secciones.
 
 /*RESET*/
 
@@ -30,7 +14,7 @@ background: #000000;
 font-size: 21px;
 border-style:double;
 border-color: #FFC107;
-
+background: linear-gradient (right, #0fad17, #dd6541);
 }
 
 /*header*/
