@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-
-
 <head>
-<!--el icono de la página en el head-->
+<!--referencia a archivo css, titulo pestaña e icono-->
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="styles.css"/>
     <link rel="icon" href="iconos/TRIPLE-B-ICONO.ico" type="image/x-icon"/>
@@ -11,13 +9,14 @@
 </head>
 
 <body>
-
+<!--encabezado y logotipo-->
 <header>
 <div class="encabezado">
     <img src="logotipo/logotipo.png" class="logo">
-
+<!--primer titulo-->
     <h1 class="h1"> TRIPLE BUFFET </h1>
 </div>
+<!--botones a la derecha redes sociales-->
  <div class="redsocial">
      <a class="social1" href="https://www.instagram.com/morenokaiser/" target="_blank">
     <img src="iconos/instagram.png" alt="Ir a isntagram" width="50" />
@@ -27,13 +26,9 @@
     </a>
 </div>
 </header>
-
 <main>
-<!--lista de links,    URLs relativas para navegar entre todas tus páginas 
-    contener al menos 3 páginas HTML diferentes
-    tres botones ocupan el 33% del la pag-->
-<section>
 <nav>
+    <!--3 paginas extra con iconos-->
     <ul class="ul">
         <li> 
         <a class="lista1" href="japonesa.html"><img src="iconos/ramen1.png" alt="icono" class="iconos"> Gastronomia Japonesa </a>
@@ -42,12 +37,10 @@
         </li>
     </ul>
 </nav>
-</section>
 <section>
-<!--utilizarás elementos HTML5 variados (semánticos y multimedia) 
-procurando que no se re-pitan en cada página/sección.-->
+<!--segundo titulo-->
     <h2 class="h2">Bienvenido a TRIPLE B</h2>
-<!--utilizar íconos para mejorar la experiencia Intenta usar iconos cuando te sea posible.--> 
+<!-- texto central con iconos-->
          <article class="article">
             <p>    Imagina un lugar donde los sabores del mundo se encuentran en perfecta armonía, un buffet de tripe nacionalidad gourmet que fusiona la elegancia de la gastronomía japonesa, la pasión de la cocina italiana y el encanto tradicional de la mesa española. En cada rincón te espera una experiencia diferente:</p><br/>
             <p class="masp">
@@ -59,13 +52,8 @@ procurando que no se re-pitan en cada página/sección.-->
             <p>     Disfruta de un ambiente moderno y acogedor, ideal para familias, grupos de amigos o cenas románticas. Cada visita es un viaje gastronómico sin salir de la ciudad. <br/>Ven con hambre, déjate sorprender y vive una experiencia que despertará todos tus sentidos.</p>
          </article>
 </section>
-
+<!-- video interactivo con youtube porque el video pesa mucho-->
 <section class="video">
-<!-- ARCHIVO MUY GRANDE VOY HACERLO CON ENLACE A YOUTUBE
-    <video Width="320" height="240"controls>
-        <source src="videos/videocomida.mp4" type="video/mp4">
-        
-    </video>-->
     <iframe
         src="https://www.youtube.com/embed/6iBnrHfxFTM"
         title="YouTube video player" 
@@ -75,9 +63,9 @@ procurando que no se re-pitan en cada página/sección.-->
     </iframe>
 </section>
 <section>
-    <!--tercer titulo-->
+<!--tercer titulo-->
     <h3 class="h3"> ELIGE CARTA </h3>
-    <!-- lista con descargables en horizontal-->
+<!-- lista con pdf en vertical-->
     <ul class="ul">
         <il>
         <a class="lista2" href="cartas/GASTRONOMIA JAPONESA.pdf" download><img src="iconos/ramen.png" alt="icono" class="iconos3"> Descargar Carta Japonesa </a>
@@ -87,12 +75,13 @@ procurando que no se re-pitan en cada página/sección.-->
     </ul> 
 </section>
 <section>
-    <!--3 fotografias en lista horizontal-->
+<h2 class="h2">NUESTRAS INSTALACIONES</h2>
+<!--3 fotografias en lista horizontal-->
     <ul class="ul">
         <il>
-        <img src="imagenes local/Restaurante Exterior.png" alt="exterior" class="local"/>
-        <img src="imagenes local/Restaurante Interior.png" alt="interior" class="local"/>
-        <img src="imagenes local/disposicion.png" alt="disposicion" class="local"/>
+        <a href="imagenes local/Restaurante Exterior.png"><img src="imagenes local/Restaurante Exterior.png" alt="exterior" class="local"/></a>
+        <a href="imagenes local/Restaurante Interior.png"><img src="imagenes local/Restaurante Interior.png" alt="interior" class="local"/></a>
+        <a href="imagenes local/disposicion.png"><img src="imagenes local/disposicion.png" alt="disposicion" class="local"/></a>
         </il>
     </ul>
 </section>
