@@ -178,8 +178,7 @@ body {
 /*lista de imagenes*/
 .local {
   align-items: center;
-  width:20%;
-  max-width: 40%;
+  
   padding-top: 4%;
   padding-bottom: 6%;
 }
@@ -193,4 +192,41 @@ body {
   padding: 3%;
   border-style:double;
   border-color: #FFC107;
+}
+
+.comida{
+  width:80%;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.lateral {
+  display: flex;
+  gap: 1.5rem;            /* espacio entre article y aside */
+  align-items: flex-start;/* alinea arriba */
+  padding-bottom: 4%;
+  padding-right: 7%;
+  padding-top: 6%;
+}
+
+/* article ocupa el espacio disponible */
+.lateral article {
+  flex: 1 1 auto;
+  min-width: 0;           /* evita overflow en elementos largos */
+}
+
+/* aside con ancho fijo */
+.lateral aside {
+  flex: 0 0 300px;        /* ancho fijo (ajusta) */
+}
+
+/* comportamiento responsive: apilar en pantallas pequeñas */
+@media (max-width: 768px) {
+  .lateral {
+    flex-direction: column;
+  }
+  .lateral aside {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
