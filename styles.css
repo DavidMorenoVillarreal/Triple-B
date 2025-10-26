@@ -162,8 +162,20 @@ body {
 }
 
 /*video*/
+.h4 {
+  text-align: left;
+  color: #FFC107;
+  font-size: 29px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
 .video {
   display: flex;               /* activa flexbox */
+  flex-direction: column; /* Acomoda los hijos en columna */
+  align-items: center;    /* Centra horizontalmente el contenido */
+  text-align: center;     /* Centra el texto del h2 que tube que meter al video */
+
   justify-content: center;     /* centra horizontalmente */
   align-items: center;         /* centra verticalmente si hay altura */
   padding-bottom: 5%;
