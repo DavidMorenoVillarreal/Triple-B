@@ -178,7 +178,7 @@ body {
 /*lista de imagenes*/
 .local {
   align-items: center;
-  
+  max-width: 20%;
   padding-top: 4%;
   padding-bottom: 6%;
 }
