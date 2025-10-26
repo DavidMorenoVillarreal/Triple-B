@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Britannic Bold", sans-serif;
+  font-family: "Bahnschrif", sans-serif;
   background: linear-gradient(to bottom, #000000, #252525ea);
   font-size: 21px;
   border-style:double;
@@ -60,6 +60,7 @@ body {
 
     /*titulo grande pagina*/
 .h1 {
+  font-family: "Britannic Bold", sans-serif;
   text-align: center;
   align-content: center;
   color: #FFC107;
@@ -102,6 +103,7 @@ body {
 
 }
 .lista1 {
+  font-family: "Britannic Bold", sans-serif;
   gap: 20px; 
   display:inline-block;
   text-decoration: none; /* quita el subrayado */
@@ -139,12 +141,17 @@ body {
 
     /*titulo secion1*/
 .h2 {
+  font-family: "Britannic Bold", sans-serif;
   text-align: left;
   color: #FFC107;
   font-size: 29px;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 17%;
+}
+.h5a {
+font-family: "Bahnschrif", sans-serif;
+font-size: 21px;
 }
     /*parrafo secion 1*/
 .article {
@@ -163,6 +170,7 @@ body {
 
 /*video*/
 .h4 {
+  font-family: "Britannic Bold", sans-serif;
   text-align: left;
   color: #FFC107;
   font-size: 29px;
@@ -190,6 +198,7 @@ body {
 
 /*titulo cartas*/
 .h3 {
+  font-family: "Britannic Bold", sans-serif;
   text-align: center;
   color: #FFC107;
   padding-bottom: 2%;
@@ -198,6 +207,7 @@ body {
 
 /*lista de cartas*/
 .lista2 {
+  font-family: "Britannic Bold", sans-serif;
   display: flex; 
   justify-content: center; 
   text-decoration: none; /* quita el subrayado */
