@@ -163,6 +163,7 @@ body {
   align-items: center;         /* centra verticalmente si hay altura */
   padding-bottom: 5%;
   text-align: center;
+  border: none;
 }
 .video iframe { 
   width: 50%;                  /* ocupa el 80% del ancho del contenedor */
