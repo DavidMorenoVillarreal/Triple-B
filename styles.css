@@ -188,12 +188,13 @@ font-size: 21px;
   align-items: center;         /* centra verticalmente si hay altura */
   padding-bottom: 5%;
   text-align: center;
-  border: none;
+  
 }
 .video iframe { 
   width: 45%;                  /* ocupa el 80% del ancho del contenedor */
   max-width: 50%;            /* no crece más de 800px */
   aspect-ratio: 16 / 9;        /* mantiene proporción de video */
+  border-color: #FFC107;
 }
 
 /*titulo cartas*/
