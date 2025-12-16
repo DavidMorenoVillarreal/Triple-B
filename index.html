@@ -30,6 +30,41 @@
 <button id="modoclaro">Modo Claro</button>
 
 
+
+
+
+<!--reserva mesa-->
+
+  <form id="formReserva">
+
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre"><br><br>
+
+    <label for="apellido">Apellidos</label><br>
+    <input type="text" id="apellido"><br><br>
+
+    <label for="telefono">Teléfono</label><br>
+    <input type="tel" id="telefono"><br><br>
+
+    <label for="email">Correo electrónico</label><br>
+    <input type="email" id="email"><br><br>
+
+    <label for="horario">Horario</label><br>
+    <select id="horario">
+      <option value="">-- Selecciona una opción --</option>
+      <option value="comida">Comida</option>
+      <option value="cena">Cena</option>
+    </select><br><br>
+
+    <button type="submit">Reservar</button>
+
+  </form>
+
+<p id="mensaje"></p>
+
+
+
+
 </header>
 
 <main>
@@ -126,6 +161,42 @@
 <footer class="footer">
         TlfContacto: 925-348-380    |   Email: tripleb@gmail.com    |   Localidad: Toledo-Toledo    |   CP: 45007   |   Calle: falsa Nº123. 
 </footer>
+
+
+
+<!--FORMULARIO-->
+
+  <script>
+    const formulario = document.getElementById("formReserva");
+    const mensaje = document.getElementById("mensaje");
+
+    formulario.addEventListener("submit", function(event) {
+      event.preventDefault(); 
+
+      const nombre = document.getElementById("nombre").value;
+      const apellido = document.getElementById("apellido").value;
+      const telefono = document.getElementById("telefono").value;
+      const email = document.getElementById("email").value;
+      const horario = document.getElementById("horario").value;
+
+      if (
+        nombre === "" ||
+        apellido === "" ||
+        telefono === "" ||
+        email === "" ||
+        horario === ""
+      ) 
+      {
+        mensaje.textContent = "Por favor, rellena todos los campos.";
+        mensaje.style.color = "red";
+      } 
+      else {
+        mensaje.textContent = "Reserva enviada correctamente.";
+        mensaje.style.color = "green";
+      }
+    });
+  </script>
+
 
 
 <!--SCRIPT ENCUESTA-->
