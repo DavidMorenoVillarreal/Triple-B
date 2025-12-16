@@ -323,10 +323,10 @@ font-size: 21px;
 
 
 #modoclaro {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 8px 12px;
+  position: fixed; /* mantiene la posicion fija con scroll */
+  top: 1%;
+  right: 0.5%;
+  padding: 0.5% 0.5%;
   cursor: pointer;
   font-weight: bold;
   border: none;
