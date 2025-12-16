@@ -283,3 +283,69 @@ font-size: 21px;
     width: 100%;
   }
 }
+
+
+.encuesta {
+
+ text-align: center;
+ padding-bottom: 4%;
+ padding-left: 0%;
+
+
+}
+.h-encuesta {
+ text-align: center;
+ font-family: "Britannic Bold", sans-serif;
+ color: #FFC107;
+ padding-bottom: 2%;
+
+}
+
+.formulario {
+  text-align: left;
+  padding-bottom: 0%;
+  padding-left: 30%;
+}
+
+.enviar {
+  text-align: center;
+  font-weight: bold; /* pone el texto en negrita */
+  font-size: 80%;
+  background-color: #FFC107; 
+  font-family: "Britannic Bold", sans-serif; 
+  border: none;
+  border-radius: 5px; /* para que no este tan picudo */
+  padding: 1.05% 1%; /* tamaño adaptable */
+  margin-top:4%;
+  margin-left:25%;
+  cursor: pointer; /* cambia el cursor al pasar por encima */
+}
+
+
+#modoclaro {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFC107;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+#modoclaro:hover {
+  background-color: #ff8b07;
+}
+
+/* Modo claro: estilos alternativos */
+body.modo-claro {
+  background: linear-gradient(to bottom, #c7c7c7, #777777ea);
+  color: #000000;
+}
+
+.modo-claro .article {
+  color: #000000;
+}

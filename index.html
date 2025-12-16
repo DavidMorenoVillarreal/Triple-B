@@ -25,7 +25,13 @@
     <img src="iconos/youtube.png" alt="Ir a youtube" width="50"/>
     </a>
 </div>
+
+<!--boton modo claro -->
+<button id="modoclaro">Modo Claro</button>
+
+
 </header>
+
 <main>
 <nav>
     <!--3 paginas extra con iconos-->
@@ -87,11 +93,77 @@
         </li>
     </ul>
 </section>
+
+<!--FORMULARIO ENCUESTA-->
+<h3 class="h-encuesta">Encuesta de satisfacción</h3>
+<section class="encuesta">
+  <form id="formEncuesta" class="formulario">
+    <label class="article">
+      <input type="radio" name="valoracion" value="Excelente"> Excelente
+    </label><br>
+
+    <label class="article">
+      <input type="radio" name="valoracion" value="Buena"> Buena
+    </label><br>
+
+    <label class="article">
+      <input type="radio" name="valoracion" value="Mejorable"> Mejorable
+    </label><br>
+
+        <label class="article">
+      <input type="radio" name="valoracion" value="Mala"> Mala
+    </label><br>
+
+    <button type="submit" class="enviar">Enviar</button>
+  </form>
+
+  <p id="mensajeConfirmacion"></p>
+
+</section>
 </main>
+
+<!--PIE DE PAGINA-->
 <footer class="footer">
-<!--fijar pie de pagina-->
         TlfContacto: 925-348-380    |   Email: tripleb@gmail.com    |   Localidad: Toledo-Toledo    |   CP: 45007   |   Calle: falsa Nº123. 
 </footer>
+
+
+<!--SCRIPT ENCUESTA-->
+<script>
+  const formulario = document.getElementById("formEncuesta");
+  const mensaje = document.getElementById("mensajeConfirmacion");
+
+  formulario.addEventListener("submit", function (event) {
+    event.preventDefault(); // evita recargar la página
+   
+    mensaje.textContent = "Gracias por su valoración!! 😊";
+    mensaje.style.color = "orange";
+    mensaje.style.fontWeight = "bold";
+  });
+</script>
+
+
+
+
+<!--SCRIPT BOTON MODO CLARO-->
+  <script>
+    const botonModoClaro = document.getElementById("modoclaro");
+
+    botonModoClaro.addEventListener("click", function() {
+      // Alterna la clase 'modo-claro' en el body
+      document.body.classList.toggle("modo-claro");
+
+      // Cambia el texto del botón según el estado
+      if (document.body.classList.contains("modo-claro")) {
+        botonModoClaro.textContent = "Modo Oscuro";
+      } else {
+        botonModoClaro.textContent = "Modo Claro";
+      }
+    });
+  </script>
+
+
+
 </body>
 </html>
 
@@ -105,4 +177,4 @@ ENCUESTA SATISFACION, QUE AL RELLENAR INDIQUE GRACIAS POR SU VALORACION-->
 
 
 <!-- script que modifique el estilo de algún componente de la web.
- ABRIR IMAGENES RESTAURANTE QUE DESPLIEGE UN TEXTO QUE DE INFORMACION O HISTORIA DEL LOCAL -->
+ X :boton modo claro que cambiara el etilo del fondo y el color del texto del articulo-->
